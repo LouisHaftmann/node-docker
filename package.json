@@ -1,0 +1,42 @@
+{
+  "name": "node-docker",
+  "version": "0.0.1",
+  "description": "Docker Engine API wrapper for Node.js",
+  "author": "Louis Haftmann",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LouisHaftmann/node-docker"
+  },
+  "keywords": [
+    "docker",
+    "docker-engine",
+    "docker-api",
+    "docker-wrapper"
+  ],
+  "main": "dist/index.js",
+  "source": "src/index.ts",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "lint": "eslint --fix .",
+    "type-check": "tsc --noEmit",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.35.1",
+    "@changesets/cli": "^2.26.0",
+    "@parcel/core": "^2.8.3",
+    "@parcel/packager-ts": "^2.8.3",
+    "@parcel/transformer-typescript-types": "^2.8.3",
+    "@types/node": "^18.11.18",
+    "eslint": "^8.33.0",
+    "parcel": "^2.8.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "defu": "^6.1.2",
+    "got": "^12.5.3"
+  }
+}
