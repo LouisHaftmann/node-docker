@@ -1,5 +1,5 @@
 {
-  "name": "node-docker",
+  "name": "@louishaftmann/node-docker",
   "version": "0.0.1",
   "description": "Docker Engine API wrapper for Node.js",
   "author": "Louis Haftmann",
